@@ -1,0 +1,32 @@
+@charset "gb2312";
+#body{
+	width: 962px;
+	float: left;
+}
+.windowl{
+	width: 450px;
+	float: left;
+	height: 300px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	text-align: center;
+	margin-left: 28px;
+	margin-right: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}.windowr{
+	width: 450px;
+	float: left;
+	height: 300px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	text-align: center;
+	margin-left: 1px;
+	margin-right: 28px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.row{
+	width: 962px;
+	height: 302px;
+}
