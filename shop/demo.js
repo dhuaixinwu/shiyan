@@ -44,7 +44,7 @@ document.getElementById("s1003").innerHTML= s1003 ;
 //1004
 {
 var t1004=
-"http://bmob-cdn-20135.b0.upaiyun.com/2018/10/03/c550c90b40592cfb806e13c72680af54.jpg";
+"http://bmob-cdn-20135.b0.upaiyun.com/2018/10/04/4fc1f11b4014a37f8090270f2b5f72b3.jpg";
 var z1004="003爱心屋的工作服";
 var p1004="200元";
 var s1004="300元";
@@ -57,7 +57,7 @@ document.getElementById("s1004").innerHTML= s1004 ;
 //1005
 {
 var t1005=
-"http://bmob-cdn-20135.b0.upaiyun.com/2018/10/03/c550c90b40592cfb806e13c72680af54.jpg";
+"http://bmob-cdn-20135.b0.upaiyun.com/2018/10/04/4fc1f11b4014a37f8090270f2b5f72b3.jpg";
 var z1005="003爱心屋的工作服";
 var p1005="200元";
 var s1005="300元";
@@ -70,7 +70,7 @@ document.getElementById("s1005").innerHTML= s1005 ;
 //1006
 {
 var t1006=
-"http://bmob-cdn-20135.b0.upaiyun.com/2018/10/03/c550c90b40592cfb806e13c72680af54.jpg";
+"http://bmob-cdn-20135.b0.upaiyun.com/2018/10/04/4fc1f11b4014a37f8090270f2b5f72b3.jpg";
 var z1006="003爱心屋的工作服";
 var p1006="200元";
 var s1006="300元";
