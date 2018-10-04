@@ -3,29 +3,35 @@
 	width: 962px;
 	float: left;
 }
-.windowl{
-	width: 450px;
-	float: left;
+.window{
+	width: 300px;
 	height: 300px;
 	border: 1px solid #000000;
 	border-radius: 3px;
 	text-align: center;
-	margin-left: 28px;
-	margin-right: 1px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	float: left;
 }
 .windowr{
-	width: 450px;
-	float: left;
+	width: 300px;
 	height: 300px;
 	border: 1px solid #000000;
 	border-radius: 3px;
 	text-align: center;
-	margin-left: 1px;
-	margin-right: 28px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin-left: 30px;
+}
+.windowm{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	text-align: center;
+}
+.windowl{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	text-align: center;
 }
 .row{
 	width: 962px;
