@@ -39,6 +39,69 @@ document.getElementById("t1004").src=
 
 
 
+//第3行
+//1005
+{
+document.getElementById("z1005").innerHTML= "005爱心屋的工作服";
+document.getElementById("p1005").innerHTML= "100元";
+document.getElementById("t1005").src= 
+"      http://pic5.nipic.com/20100221/2839526_090902782678_2.jpg               ";
+}
+
+//1006
+{
+document.getElementById("z1006").innerHTML= "006深夜福利";
+document.getElementById("p1006").innerHTML= "200元";
+document.getElementById("t1006").src= 
+"      http://bmob-cdn-20135.b0.upaiyun.com/2018/10/05/9cad7d2f402a5b2d80d802e799e1017f.gif                ";
+}
+
+
+
+
+
+//第二行
+//1007
+{
+document.getElementById("z1007").innerHTML= "007爱心屋的工作服";
+document.getElementById("p1007").innerHTML= "100元";
+document.getElementById("t1007").src= 
+"      http://pic5.nipic.com/20100221/2839526_090902782678_2.jpg               ";
+}
+
+//1008
+{
+document.getElementById("z1008").innerHTML= "008深夜福利";
+document.getElementById("p1008").innerHTML= "200元";
+document.getElementById("t1008").src= 
+"      http://bmob-cdn-20135.b0.upaiyun.com/2018/10/05/9cad7d2f402a5b2d80d802e799e1017f.gif                ";
+}
+
+
+
+
+
+
+//第二行
+//1009
+{
+document.getElementById("z1009").innerHTML= "009爱心屋的工作服";
+document.getElementById("p1009").innerHTML= "100元";
+document.getElementById("t1009").src= 
+"      http://pic5.nipic.com/20100221/2839526_090902782678_2.jpg               ";
+}
+
+//1010
+{
+document.getElementById("z1010").innerHTML= "010深夜福利";
+document.getElementById("p1010").innerHTML= "200元";
+document.getElementById("t1010").src= 
+"      http://bmob-cdn-20135.b0.upaiyun.com/2018/10/05/9cad7d2f402a5b2d80d802e799e1017f.gif                ";
+}
+
+
+
+
 
 
 
