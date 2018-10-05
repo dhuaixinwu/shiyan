@@ -1,0 +1,50 @@
+#all {
+	width: 600px;
+}
+
+#top {
+	height: 120px;
+	background-color: #FF7600;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50px;
+	line-height: 120px;
+	font-family: "方正水云简体";
+}
+#content {
+	background-color: #D3D3D3;
+	height: 910px;
+	padding-top: 10px;
+}
+
+
+.card {
+	width: 500px;
+	height: 120px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 4px 6px 9px 4px #949494;
+	box-shadow: 4px 6px 9px 4px #949494;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 60px;
+	line-height: 120px;
+	font-family: "方正水云简体";
+	color: #B49425;
+	margin-left: 50px;
+}
+.card a{
+	color: #B49425;
+	text-decoration: none;
+}
+.card a:hover{
+	font-weight: bold;
+	color: #FF7600;
+}
+#adress {
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+	color: #8A5100;
+}
