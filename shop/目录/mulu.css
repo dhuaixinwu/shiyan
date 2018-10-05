@@ -1,39 +1,39 @@
 *{margin: 0px}
 #all {
-	width: 1200px;
+	width: 962px;
 }
 
 #top {
-	height: 240px;
+	height: 200px;
 	background-color: #FF7600;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 100px;
-	line-height: 240px;
+	font-size: 90px;
+	line-height: 200px;
 	font-family: "方正水云简体";
 }
 #content {
 	background-color: #D3D3D3;
-	height: 1820px;
-	padding-top: 10px;
+	height: 1500px;
+	padding-top: 8px;
 }
 
 
 .card {
-	width: 1000px;
-	height: 240px;
+	width: 800px;
+	height: 200px;
 	background-color: #FFFFFF;
 	-webkit-box-shadow: 8px 12px 12px 8px #949494;
 	box-shadow: 8px 12px 12px 8px #949494;
-	margin-right: 100px;
+	margin-right: 81px;
 	margin-top: 60px;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	text-align: center;
-	font-size: 120px;
-	line-height: 240px;
+	font-size: 100px;
+	line-height: 200px;
 	font-family: "方正水云简体";
 	color: #B49425;
-	margin-left: 100px;
+	margin-left: 81px;
 }
 .card a{
 	color: #B49425;
@@ -46,6 +46,6 @@
 #adress {
 	text-align: center;
 	font-size: 40px;
-	line-height: 40px;
+	line-height: 60px;
 	color: #8A5100;
 }
