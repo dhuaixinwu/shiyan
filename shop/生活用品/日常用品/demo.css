@@ -17,7 +17,7 @@
 	border-left: 0.5px solid #838383;
 }
 .topt{
-	width: 179.5px;/*一条边框0.5px，[900.5-0.5x（项目+1）]/项目=w。*/
+	width: 179px;/*一条边框0.5px，[900.5-0.5x（项目+1）]/项目=w。*/
 	float: left;
 	border-right: 0.5px solid #838383;
 	border-bottom: 0.5px solid #838383;
