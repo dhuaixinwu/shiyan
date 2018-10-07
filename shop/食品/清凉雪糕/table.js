@@ -42,7 +42,7 @@ code+='<tr><td>4	                   '
 code+='<tr><td>5	                   '
 +'</td><td>安徽省的积分		       '
 +'</td><td>100元			'
-+'</td><td>		http://bmob-cdn-20135.b0.upaiyun.com/2018/10/05/9cad7d2f402a5b2d80d802e799e1017f.gif		'
++'</td><td>		http://pic5.nipic.com/20100221/2839526_090902782678_2.jpg		'
 +'</td></tr>';
 
 code+='<tr><td>6	                   '
@@ -60,7 +60,7 @@ code+='<tr><td>7	                   '
 code+='<tr><td>8	                   '
 +'</td><td>的积分		       '
 +'</td><td>100元			'
-+'</td><td>		http://bmob-cdn-20135.b0.upaiyun.com/2018/10/05/9cad7d2f402a5b2d80d802e799e1017f.gif		'
++'</td><td>		http://pic5.nipic.com/20100221/2839526_090902782678_2.jpg		'
 +'</td></tr>';
 
 div1.innerHTML=code;

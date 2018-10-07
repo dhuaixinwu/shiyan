@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>爱心超市价目表</title>
+<title>添加行数demo</title>
 <link href="demo.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -25,220 +25,84 @@
 
 
 
+<!-- 将商品通过tabla.js导入此html中 -->
+<div id="div1" style="display:none;">
+<div id="div2"></div>
+<div id="div3"></div>
+<!-- 将表格设置为不可见并且不占用空间 -->
+<table id="tab">
+	<thead><tr><td>序号</td><td>名称</td><td>价格</td><td>链接</td></tr></thead>
+	<tbody id="tb1"></tbody>
+</table>
+</div>
+<script src="table.js"></script>
+<script > 
+var tr = document.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+document.getElementById('div2').innerHTML =tr.length;
+</script>
+
+
+
+
+
+
+
+
+
 
 <!--第一行商品-->
-<div class="row">
+<div class="row" id="row1">
 <!--第一个商品-->
-  <div class="window" style="margin-left: 30px;">
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1001" src="?" width="375" height="375"  
+  <div class="window">
+	<div class="tp">
+		<img id="t1" src="?" width="375" height="375"  
 		alt="这是爱心屋商品图片哦！！"/>
 	</div>
 	
 	<div class="mc">
-	  <p    id="z1001">商品名称</p>
+	  <p    id="z1">商品名称1</p>
 	</div>
 		
 	<div style="height: 50px;line-height: 50px;text-align: center;">
 		<span class="axj">爱心价:</span>
-		<span id="p1001" class="jg" style="float: left;margin-left: 5px;" ></span>
+		<span id="p1" class="jg" style="float: left;margin-left: 5px;" ></span>
 	</div>
 </div>
 
 <!--第二个商品-->
  <div class="window" >
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1002" src="?" width="375" height="375"  
+	<div class="tp">
+		<img id="t2" src="?" width="375" height="375"  
 		alt="这是爱心屋商品图片哦！！"/>
 	</div>
 	
 	<div class="mc">
-	  <p    id="z1002">商品名称</p>
+	  <p    id="z2">商品名称2</p>
 	</div>
 		
 	<div style="height: 50px;line-height: 50px;text-align: center;">
 		<span class="axj">爱心价:</span>
-		<span id="p1002" class="jg" style="float: left;margin-left: 5px;" ></span>
+		<span id="p2" class="jg" style="float: left;margin-left: 5px;" ></span>
 	</div>
 </div>
 </div>
 
-
-
-
-
-<!--第二行商品-->
-<div class="row">
-<!--第一个商品-->
-  <div class="window" style="margin-left: 30px;">
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1003" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1003">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1003" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-
-<!--第二个商品-->
- <div class="window" >
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1004" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1004">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1004" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-</div>
-
-
-
-<!--第三行商品-->
-<div class="row">
-<!--第一个商品-->
-  <div class="window" style="margin-left: 30px;">
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1005" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1005">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1005" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-
-<!--第二个商品-->
- <div class="window" >
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1006" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1006">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1006" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-</div>
 
 
 	
+	<script src="addrow.js"	></script>
+	<script src="change.js"	></script>
 	
-	
-<!--第四行商品-->
-<div class="row">
-<!--第一个商品-->
-  <div class="window" style="margin-left: 30px;">
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1007" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1007">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1007" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-
-<!--第二个商品-->
- <div class="window" >
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1008" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1008">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1008" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-</div>
-
-
-
-
-
-
-<!--第5行商品-->
-<div class="row">
-<!--第一个商品-->
-  <div class="window" style="margin-left: 30px;">
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1009" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1009">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1009" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-
-<!--第二个商品-->
- <div class="window" >
-	<div class="tp" style="margin-top: 45px;">
-		<img id="t1010" src="?" width="375" height="375"  
-		alt="这是爱心屋商品图片哦！！"/>
-	</div>
-	
-	<div class="mc">
-	  <p    id="z1010">商品名称</p>
-	</div>
-		
-	<div style="height: 50px;line-height: 50px;text-align: center;">
-		<span class="axj">爱心价:</span>
-		<span id="p1010" class="jg" style="float: left;margin-left: 5px;" ></span>
-	</div>
-</div>
-</div>
-
-
-	
-	
-	<script src="demo.js"	></script>
 
 </body>
 
 
 
-
-
-
-
 </html>
+
+
+
+
+
 
 

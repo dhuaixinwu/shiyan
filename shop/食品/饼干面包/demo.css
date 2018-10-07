@@ -52,6 +52,7 @@
 	width: 962px;
 	float: none;
 	clear: both;
+	margin-left: 30px;
 }
 
 .window{
@@ -64,6 +65,7 @@
 	background-color: #FEFFF4;
 }
 .tp{
+	margin-top: 45px;
 }
 .mc{
 	font-size: 40px;
