@@ -3,15 +3,17 @@ function addElement () {
 
 
 
-var b= parseInt(document.getElementById('div2').innerHTML);//商品数量
+var b= parseInt(document.getElementById('div2').innerHTML);//商品数量，偶数
+
+
+
+
+
+
 var a= b/2;
 //数字为a就a行,2a个商品
 
-
-
-
-
-for (var i  = 2; i <= a; i++) {
+for (var i  = 1; i <= a; i++) {
 //row,i;修改i的值设置行数，
 //旧的元素
 var oELE = document.getElementById("row"+(i-1));
@@ -24,6 +26,11 @@ nrow.className="row";
 //创建一个左window元素,并且给他添加一些内容
 	var newl = document.createElement("div");
 	newl.className="window";
+
+//点击图片链接
+	var newla = document.createElement("a");
+		newla.id = "href"+(2*i-1);
+		newla.href = 'https://api.uixsj.cn/bing/bing.php';
 
 //图片
 	var newlTpdiv = document.createElement("div");
@@ -67,6 +74,11 @@ nrow.className="row";
 	var newr = document.createElement("div");
 	newr.className="window";
 
+//点击图片链接
+	var newra = document.createElement("a");
+		newra.id = "href"+(2*i);
+		newra.href = 'https://api.uixsj.cn/bing/bing.php';
+
 //图片
 	var newrTpdiv = document.createElement("div");
 		newrTpdiv.className="tp";
@@ -107,7 +119,8 @@ nrow.className="row";
 document.body.insertBefore(nrow, oELE.nextSibling);
 nrow.appendChild(newl);
 newl.appendChild(newlTpdiv);
-newlTpdiv.appendChild(newlTp);
+newlTpdiv.appendChild(newla);
+newla.appendChild(newlTp);
 newl.appendChild(newlMcdiv);
 newlMcdiv.appendChild(newlMc);
 newl.appendChild(newlJgdiv);
@@ -119,7 +132,8 @@ newlJgdiv.appendChild(newlJg);
 document.body.insertBefore(nrow, oELE.nextSibling);
 nrow.appendChild(newr);
 newr.appendChild(newrTpdiv);
-newrTpdiv.appendChild(newrTp);
+newrTpdiv.appendChild(newra);
+newra.appendChild(newrTp);
 newr.appendChild(newrMcdiv);
 newrMcdiv.appendChild(newrMc);
 newr.appendChild(newrJgdiv);

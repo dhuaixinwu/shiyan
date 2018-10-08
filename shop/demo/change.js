@@ -23,9 +23,8 @@ for (var i  = 0; i < ar.length; i++) {
 document.getElementById("z"+(i+1)).innerHTML= (i+1)+ar[i+1][1];
 document.getElementById("p"+(i+1)).innerHTML= ar[i+1][2];
 document.getElementById("t"+(i+1)).src= ar[i+1][3];
+document.getElementById("href"+(i+1)).href= ar[i+1][3];
+
 }
 }
-
-
-
 }
