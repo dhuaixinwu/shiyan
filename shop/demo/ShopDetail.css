@@ -1,0 +1,37 @@
+*{margin: 0px;}
+#detail{
+	width: 968px;
+}#shopimg {
+	margin-left: 34px;
+	margin-right: 34px;
+	margin-top: 34px;
+}
+#shopname {
+	margin-left: 40px;
+	font-size: 80px;
+}
+#shoppricediv {
+	font-size: 100px;
+	margin-left: 40px;
+	color: #FF0004;
+}
+#intro {
+	border-top: thick solid #7E7E7E;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 8px;
+	margin-bottom: 50px;
+}
+#sp {
+	line-height: 50px;
+	font-size: 30px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+#shopintro {
+	font-size: 30px;
+	margin-left: 40px;
+}
+.tpzs{
+	margin-left: 20px;
+}

@@ -4,19 +4,41 @@
 <meta charset="utf-8">
 <title>添加行数demo</title>
 <link href="demo.css" rel="stylesheet" type="text/css">
+
+
+
+
+<!-- 以下是点击图片进入商品介绍界面 -->
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+function to(){  
+    //var getval ="valueTest";
+    var t = document.getElementById('thisidnum').innerHTML;
+    var noneTO = tab.rows[t].cells[t,0].innerText;
+    var nameTO = tab.rows[t].cells[t,1].innerText;
+    var priceTO = tab.rows[t].cells[t,2].innerText;
+    var linkTO = tab.rows[t].cells[t,3].innerText;
+    var detailTO1 = tab.rows[t].cells[t,4].innerText;
+    var detailTO2 = tab.rows[t].cells[t,5].innerText;
+    var detailTO3 = tab.rows[t].cells[t,6].innerText;
+    var detailTO4 = tab.rows[t].cells[t,7].innerText;
+    var getval = noneTO+"&"+linkTO+"&"+nameTO+"&"+priceTO+"&"+detailTO1+"&"+detailTO2+"&"+detailTO3+"&"+detailTO4;
+    window.location.href="ShopDetail.html?valus="+getval;
+} 
+</script>
+<!-- 以上是点击图片进入商品介绍界面 -->
+
+
+
+
 </head>
-
 <body>  <!--t1001图片tp，z1004名称的字mc，p1001价格jg，j1001介绍js,s1001删除价格-->
-
-
 <div id="top"> 
 	<div class="topt" style="font-weight: bold;"><a href="../饼干面包/demo.html">饼干面包</a></div>
 	<div class="topt"><a href="../清凉雪糕/demo.html">清凉雪糕</a></div>
 	<div class="topt"><a href="../薯片薯条/demo.html">薯片薯条</a></div>
 	<div class="topt"><a href="../其他零食/demo.html">其他零食</a></div>
 </div>
-
-
 <div id="title">	
 	<span style="font-size: 20px;text-align: bottom;">爱心超市——</span>食品<span style="font-size: 40px;text-align: bottom;">|饼干面包</span>
 	<span style="font-size: 10px;text-align: bottom;color: #838383;">(可放缩查看)</span>
@@ -29,11 +51,16 @@
 <div id="div1" style="display:none;">
 <div id="div2"></div>
 <div id="div3"></div>
+
+
 <!-- 将表格设置为不可见并且不占用空间 -->
 <table id="tab">
-	<thead><tr><td>序号</td><td>名称</td><td>价格</td><td>链接</td></tr></thead>
+	<thead><tr><td>序号</td><td>名称</td><td>价格</td><td>图片链接</td><td>商品介绍</td><td>展示图2</td><td>展示图3</td><td>展示图4</td></tr></thead>
 	<tbody id="tb1"></tbody>
 </table>
+
+
+<!-- 获得商品行数 -->
 </div>
 <script src="table.js"></script>
 <script > 
@@ -48,9 +75,19 @@ document.getElementById('div2').innerHTML =tr.length;
 
 
 
+<div style="display:none;">
+	<div id="thisidnum">thisidnum</div>
+</div>
 
 
-<!--第一行商品-->
+
+
+
+
+
+
+
+<!--每行商品-->
 <div class="row" id="row0">
 </div>
 

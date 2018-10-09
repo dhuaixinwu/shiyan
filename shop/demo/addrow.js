@@ -30,17 +30,25 @@ nrow.className="row";
 //点击图片链接
 	var newla = document.createElement("a");
 		newla.id = "href"+(2*i-1);
-		newla.href = 'https://api.uixsj.cn/bing/bing.php';
+		newla.onclick=function ()
+		{
+			var t = this.id.substr(4);//获取所点击的序号
+			document.getElementById('thisidnum').innerHTML= t;
+			to();
+		}
+
 
 //图片
 	var newlTpdiv = document.createElement("div");
 		newlTpdiv.className="tp";
+		//newlTpdiv.onclick=to();
 	var newlTp = document.createElement("img");
 		newlTp.id="t"+(2*i-1);
 		newlTp.src='https://api.uixsj.cn/bing/bing.php';
 		newlTp.alt ="这是爱心屋商品图片哦！！";
 		newlTp.style.width="375px";
 		newlTp.style.height="375px";
+		
 
 
 //名称
@@ -63,6 +71,9 @@ nrow.className="row";
 		newlJg.className="jg";
 		newlJg.style.float='left';
 		newlJg.style.marginLeft='5px';
+
+
+
 		
 		
 		
@@ -77,7 +88,12 @@ nrow.className="row";
 //点击图片链接
 	var newra = document.createElement("a");
 		newra.id = "href"+(2*i);
-		newra.href = 'https://api.uixsj.cn/bing/bing.php';
+		newra.onclick=function ()
+		{
+			var t = this.id.substr(4);//获取所点击的序号
+			document.getElementById('thisidnum').innerHTML= t;
+			to();
+		}
 
 //图片
 	var newrTpdiv = document.createElement("div");
@@ -128,6 +144,9 @@ newlJgdiv.appendChild(newlAxj);
 newlJgdiv.appendChild(newlJg);
 
 
+
+
+
 //添加右边商品
 document.body.insertBefore(nrow, oELE.nextSibling);
 nrow.appendChild(newr);
@@ -139,7 +158,6 @@ newrMcdiv.appendChild(newrMc);
 newr.appendChild(newrJgdiv);
 newrJgdiv.appendChild(newrAxj);
 newrJgdiv.appendChild(newrJg);
-
 
 
 }}

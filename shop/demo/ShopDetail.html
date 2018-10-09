@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>商品介绍</title>
+
+	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+//console.log(location.search.concat());
+//manyValues();
+$("#show").html(oneValues());
+})
+
+//接收一个值
+function oneValues(){
+var result;
+var url=window.location.search; //获取url中"?"符后的字串  
+if(url.indexOf("?")!=-1){
+var str = url.substr(1);
+   strs = str.split("&"); 
+   
+	//document.getElementById('s0').innerHTML=strs[0];
+	document.getElementById('shopimg').src=strs[1];
+	document.getElementById('shopname').innerHTML=strs[2];
+	document.getElementById('shopprice').innerHTML=strs[3];
+	document.getElementById('shopintro').innerHTML=strs[4];
+	document.getElementById('tpzs1').innerHTML=strs[5];
+	document.getElementById('tpzs2').innerHTML=strs[6];
+	document.getElementById('tpzs3').innerHTML=strs[7];
+  
+}
+return result;
+}
+</script>
+<link href="ShopDetail.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="detail">
+	<div ><img id="shopimg" src="?" width="900" height="900" alt="商品图片"/>
+	</div>
+	<div><div id="shopname">商品名称</div>
+	</div>
+	<div id="shoppricediv">
+	<span style="font-size: 80px;">价格：</span><span id="shopprice">100元</span>
+	</div>
+	<div style="visibility: hidden">空行</div>
+	<div id="intro">
+		<div id="sp">商品介绍：</div>
+		
+		<div><div id="shopintro">暂无</div><!--商品介绍-->
+		</div>
+		<div><div id="tpzs1" class="tpzs"></div><!--图片展示-->
+		</div>
+		<div><div id="tpzs2" class="tpzs"></div><!--图片展示-->
+		</div>
+		<div><div id="tpzs3" class="tpzs"></div><!--图片展示-->
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
