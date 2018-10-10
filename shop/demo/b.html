@@ -15,7 +15,7 @@ $("#show").html(oneValues());
 //接收一个值
 function oneValues(){
 var result;
-var url=this.location.href;
+var url=self.location.href;
 //var url=this.location.search; //获取url中"?"符后的字串  
 if(url.indexOf("?")!=-1){
 result = url.substr(url.indexOf("=")+1);
@@ -29,7 +29,7 @@ return result;
 </head>
 <body>
 <span>接收的值是：</span>
-<div id="ceshi">ceshi3</div>
+<div id="ceshi">ceshi4</div>
 <span id="show"></span>
 </body>
 </html>
