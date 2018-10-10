@@ -16,38 +16,38 @@ body {
 
 
 #shopimg {
-	margin-left: 34px;
-	margin-right: 34px;
+	margin-left: 64px;
+	margin-right: 64px;
 	margin-top: 15px;
 }
 #shopname {
-	margin-left: 40px;
+	margin-left: 70px;
 	font-size: 80px;
 }
 #shoppricediv {
 	font-size: 130px;
-	margin-left: 50px;
+	margin-left: 80px;
 	color: #FF0004;
 }
 #intro {
 	border-top: thick solid #7E7E7E;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 	border-radius: 8px;
 	margin-bottom: 50px;
 }
 #sp {
 	line-height: 50px;
 	font-size: 40px;
-	margin-left: 20px;
+	margin-left: 50px;
 	font-weight: bold;
 }
 #shopintro {
 	font-size: 35px;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 .tpzs{
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
