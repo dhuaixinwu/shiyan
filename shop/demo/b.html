@@ -19,6 +19,7 @@ var url=window.location.search; //获取url中"?"符后的字串
 if(url.indexOf("?")!=-1){
 result = url.substr(url.indexOf("=")+1);
 }
+document.getElementById('ceshi').innerHTML = result;
 return result;
 }
 
@@ -27,7 +28,7 @@ return result;
 </head>
 <body>
 <span>接收的值是：</span>
-<div>ceshi</div>
+<div id="ceshi">ceshi</div>
 <span id="show"></span>
 </body>
 </html>
