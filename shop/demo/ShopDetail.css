@@ -27,7 +27,7 @@ body {
 }
 #shoppricediv {
 	font-size: 130px;
-	margin-left: 80px;
+	margin-left: 100px;
 	color: #FF0004;
 }
 #intro {
@@ -40,15 +40,15 @@ body {
 #sp {
 	line-height: 50px;
 	font-size: 40px;
-	margin-left: 120px;
+	margin-left: 80px;
 	font-weight: bold;
 }
 #shopintro {
 	font-size: 35px;
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 .tpzs{
-	margin-left: 160px;
-	margin-right: 160px;
+	margin-left: 90px;
+	margin-right: 90px;
 }
