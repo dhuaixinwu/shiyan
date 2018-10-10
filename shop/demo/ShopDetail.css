@@ -1,23 +1,10 @@
 *{margin: 0px;}
-body {
-	width: 968px;
-}
 #detail{
 	width: 968px;
-
-	}
-#ur {
-	margin-left: 420px;
-	color: #9E9E9E;
-	width: 968px;
-	margin-top: 5px;
-}
-
-
-#shopimg {
+}#shopimg {
 	margin-left: 34px;
 	margin-right: 34px;
-	margin-top: 15px;
+	margin-top: 34px;
 }
 #shopname {
 	margin-left: 40px;
