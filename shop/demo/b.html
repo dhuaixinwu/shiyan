@@ -15,7 +15,7 @@ $("#show").html(oneValues());
 //接收一个值
 function oneValues(){
 var result;
-var url=window.location.search; //获取url中"?"符后的字串  
+var url=this.location.search; //获取url中"?"符后的字串  
 if(url.indexOf("?")!=-1){
 result = url.substr(url.indexOf("=")+1);
 }
