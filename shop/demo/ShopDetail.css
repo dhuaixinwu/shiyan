@@ -1,9 +1,9 @@
 *{margin: 0px;}
 body {
-	width: 1328px;
+	width: 1400px;
 }
 #detail{
-	width: 1328px;
+	width: 1400px;
 
 	}
 #ur {
@@ -16,12 +16,12 @@ body {
 
 
 #shopimg {
-	margin-left: 64px;
-	margin-right: 64px;
+	margin-left: 100px;
+	margin-right: 100px;
 	margin-top: 15px;
 }
 #shopname {
-	margin-left: 70px;
+	margin-left: 100px;
 	font-size: 80px;
 }
 #shoppricediv {
@@ -31,23 +31,23 @@ body {
 }
 #intro {
 	border-top: thick solid #7E7E7E;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
 	border-radius: 8px;
 	margin-bottom: 50px;
 }
 #sp {
 	line-height: 50px;
 	font-size: 40px;
-	margin-left: 50px;
+	margin-left: 120px;
 	font-weight: bold;
 }
 #shopintro {
 	font-size: 35px;
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 120px;
+	margin-right: 120px;
 }
 .tpzs{
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 120px;
+	margin-right: 120px;
 }
