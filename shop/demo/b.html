@@ -32,6 +32,7 @@ return result;
 <body>
 <span>接收的值是：</span>
 <div id="ceshi">ceshi5</div>
+<div id="ces">ceshi5</div>
 <span id="show"></span>
 </body>
 
@@ -46,6 +47,8 @@ function ur(){
 	result = url.substr(url.indexOf("=")+1);
 	}
 	document.getElementById('ceshi').innerHTML =result;
+	document.getElementById('ces').innerHTML =url;
+
 
 }</script>
 
