@@ -12,18 +12,10 @@
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript">
 function to(){  
-    //var getval ="valueTest";
-    var t = document.getElementById('thisidnum').innerHTML;
-    var noneTO = tab.rows[t].cells[t,0].innerText;
-    var nameTO = tab.rows[t].cells[t,1].innerText;
-    var priceTO = tab.rows[t].cells[t,2].innerText;
-    var linkTO = tab.rows[t].cells[t,3].innerText;
-    var detailTO1 = tab.rows[t].cells[t,4].innerText;
-    var detailTO2 = tab.rows[t].cells[t,5].innerText;
-    var detailTO3 = tab.rows[t].cells[t,6].innerText;
-    var detailTO4 = tab.rows[t].cells[t,7].innerText;
-    var getval = noneTO+"&"+linkTO+"&"+nameTO+"&"+priceTO+"&"+detailTO1+"&"+detailTO2+"&"+detailTO3+"&"+detailTO4;
-    window.location.href="ShopDetail.html?valus="+getval;
+	var dsp = 0;
+    var dnum = document.getElementById('thisidnum').innerHTML;
+    var getval = dsp+"&"+dnum;
+    window.location.href="https://htmlpreview.github.io/?https://github.com/dhuaixinwu/shiyan/blob/master/shop/demo/ShopDetail.html?valus="+getval;
 } 
 </script>
 <!-- 以上是点击图片进入商品介绍界面 -->
