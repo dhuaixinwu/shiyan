@@ -23,6 +23,7 @@ body {
 #shopname {
 	margin-left: 100px;
 	font-size: 80px;
+	line-height: 100px;
 }
 #shoppricediv {
 	font-size: 130px;
