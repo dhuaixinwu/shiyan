@@ -22,14 +22,14 @@
 <!-- 通过链接获得点击商品序号
 将商品通过tabla.js导入此html中
 将表格设置为不可见并且不占用空间 -->
-<div id="div1"  style="display:none;"  >
+<div id="div1"   >
 <div id="dnum">序号12</div>
 <table id="tab">
 	<thead><tr><td>序号</td><td>名称</td><td>价格</td><td>图片链接</td><td>商品介绍</td><td>展示图2</td><td>展示图3</td><td>展示图4</td></tr></thead>
 	<tbody id="tb1"></tbody>
 </table>
 </div>
-<script src="table.js"></script>
+<script src="table.js">//style="display:none;" </script>
 
 
 
@@ -72,12 +72,6 @@
 
 </div>
 
-
-
-
-
-
-
 </body>
 
 
@@ -86,8 +80,6 @@
 
 <script type="text/javascript">
 $(function(){
-//console.log(location.search.concat());
-//manyValues();
 $("#show").html(oneValues());
 })
 
@@ -115,14 +107,5 @@ var str = url.substr(1);
 return result;
 }
 </script>
-
-
-
-
-
-
-
-
-
 
 </html>
