@@ -31,8 +31,8 @@ return result;
 </head>
 <body>
 <span>接收的值是：</span>
-<div id="ceshi">ceshi1</div>
-<div id="ces">ceshi1</div>
+<div id="ceshi">ceshi2</div>
+<div id="ces">ceshi2</div>
 <span id="show"></span>
 </body>
 
@@ -42,7 +42,7 @@ return result;
 <script type="text/javascript">
 document.body.onload = ur();
 function ur(){
-	var url=self.location.href;
+	var url=window.location.href;
 	if(url.indexOf("?")!=-1){
 	result = url.substr(url.indexOf("=")+1);
 	}
