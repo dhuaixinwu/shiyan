@@ -4,40 +4,23 @@
 	<meta charset="UTF-8">
 	<title>商品介绍</title>
 
-	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-//console.log(location.search.concat());
-//manyValues();
-$("#show").html(oneValues());
-})
+	
+	
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 
-//接收一个值
-function oneValues(){
-var result;
-var url=window.location.search; //获取url中"?"符后的字串  
-if(url.indexOf("?")!=-1){
-var str = url.substr(1);
-   strs = str.split("&"); 
-   
-	//document.getElementById('s0').innerHTML=strs[0];
-	document.getElementById('shopimg').src=strs[1];
-	document.getElementById('shopname').innerHTML=strs[2];
-	document.getElementById('shopprice').innerHTML=strs[3];
-	document.getElementById('shopintro').innerHTML=strs[4];
-	document.getElementById('tpzs1').innerHTML=strs[5];
-	document.getElementById('tpzs2').innerHTML=strs[6];
-	document.getElementById('tpzs3').innerHTML=strs[7];
-  
-}
-return result;
-}
-</script>
 <link href="ShopDetail.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 <div id="detail">
+
+<div>
+	<div id="ur">了解更多请来爱心屋哦！</div>
+	<script type="text/javascript">
+		document.getElementById('ur').innerHTML = this.location.href;
+	</script>
+</div>
+
 	<div ><img id="shopimg" src="?" width="900" height="900" alt="商品图片"/>
 	</div>
 	<div><div id="shopname">商品名称</div>
@@ -61,4 +44,47 @@ return result;
 
 </div>
 </body>
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+//console.log(location.search.concat());
+//manyValues();
+$("#show").html(oneValues());
+})
+
+//接收一个值
+function oneValues(){
+var result;
+var url= document.getElementById('ur').innerHTML; //获取url中"?"符后的字串  
+if(url.indexOf("?")!=-1){
+var str = url.substr(1);
+   strs = str.split("&"); 
+   
+	document.getElementById('ur').innerHTML="了解更多请来爱心屋哦！";
+	//document.getElementById('s0').innerHTML=strs[0];
+	document.getElementById('shopimg').src=strs[1].substr(4);
+	document.getElementById('shopname').innerHTML=strs[2].substr(4);//.substr(4)是作为补偿，去掉字符中的“amp;”即为&
+	document.getElementById('shopprice').innerHTML=strs[3].substr(4);
+	document.getElementById('shopintro').innerHTML=strs[4].substr(4);
+	document.getElementById('tpzs1').innerHTML=strs[5].substr(4);
+	document.getElementById('tpzs2').innerHTML=strs[6].substr(4);
+	document.getElementById('tpzs3').innerHTML=strs[7].substr(4);
+  
+}
+return result;
+}
+</script>
+
+
+
+
+
+
+
+
+
 </html>
