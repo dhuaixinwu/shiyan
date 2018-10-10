@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>商品介绍</title>
-<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 
 <link href="ShopDetail.css" rel="stylesheet" type="text/css">
 
@@ -79,13 +78,10 @@
 
 
 <script type="text/javascript">
-$(function(){
-$("#show").html(oneValues());
-})
 
+document.body.onload = oneValues();
 //接收一个值
 function oneValues(){
-var result;
 var url= document.getElementById('ur').innerHTML; //获取url中"?"符后的字串  
 if(url.indexOf("?")!=-1){
 var str = url.substr(1);
@@ -104,7 +100,7 @@ var str = url.substr(1);
     document.getElementById("tpzs2").innerHTML = tab.rows[t].cells[t,6].innerText;
     document.getElementById("tpzs3").innerHTML = tab.rows[t].cells[t,7].innerText;
 
-return result;
+return false;
 }
 </script>
 </body>
