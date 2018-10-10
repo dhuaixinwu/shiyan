@@ -91,7 +91,7 @@ if(url.indexOf("?")!=-1){
 var str = url.substr(1);
    strs = str.split("&"); 
 
-	 document.getElementById('dnum').innerHTML=strs[1];
+	 document.getElementById('dnum').innerHTML=strs[1].substr(4);
   
 }
 	document.getElementById("ur").innerHTML="了解更多请来爱心屋哦！";
