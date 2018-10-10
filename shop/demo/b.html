@@ -5,7 +5,7 @@
 <title>b页面 </title>
 <script type="text/javascript" src="jquery.min.js"></script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 $(function(){
 //console.log(location.search.concat());
 //manyValues();
@@ -25,11 +25,29 @@ return result;
 }
 
 
-</script>
+</script> -->
+
+
 </head>
 <body>
 <span>接收的值是：</span>
 <div id="ceshi">ceshi5</div>
 <span id="show"></span>
 </body>
+
+
+
+
+<script type="text/javascript">
+document.body.onload = ur();
+function ur(){
+	var url=document.URL;
+	if(url.indexOf("?")!=-1){
+	result = url.substr(url.indexOf("=")+1);
+	}
+	document.getElementById('ceshi').innerHTML =result;
+
+}</script>
+
+
 </html>
