@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cc</title>
+</head>
+<body>
+
+	<div>document.URL:
+	<div id="div1"></div>
+	</div>
+
+	<div>window.location.href:
+	<div id="div2"></div>
+	</div>
+
+	<div>this.location.href:
+	<div id="div3"></div>
+	</div>
+
+	<div>window.location:
+	<div id="div4"></div>
+	</div>
+
+<script type="text/javascript">
+	var ur1 = document.URL;
+	document.getElementById('div1').innerHTML=ur1;
+
+
+	var ur2 = window.location.href;
+	document.getElementById('div2').innerHTML=ur2;
+
+
+	var ur3 = this.location.href;
+	document.getElementById('div3').innerHTML=ur3;
+
+
+	var ur4 = window.location;
+	document.getElementById('div4').innerHTML=ur4;
+
+
+</script>
+</body>
+</html>
