@@ -97,9 +97,15 @@ var str = url.substr(1);
     document.getElementById("shopprice").innerHTML = tab.rows[t].cells[t,2].innerText;
     document.getElementById("shopimg").src= tab.rows[t].cells[t,3].innerText;
     document.getElementById("shopintro").innerHTML = tab.rows[t].cells[t,4].innerText;
+	var tab5 = tab.rows[t].cells[t,5].innerText;
+	if (tab5 == "0" ){
+	document.getElementById("tpzs1").style.display="none";
+	}else{
     document.getElementById("tpzs1").src = tab.rows[t].cells[t,5].innerText;
+	}
     document.getElementById("tpzs2").innerHTML = tab.rows[t].cells[t,6].innerText;
     document.getElementById("tpzs3").innerHTML = tab.rows[t].cells[t,7].innerText;
+	
 
 return false;
 }
