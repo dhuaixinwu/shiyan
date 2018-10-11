@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>商品介绍</title>
+
+<link href="ShopDetail.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<!-- 通过链接获得点击商品序号
+将商品通过tabla.js导入此html中
+将表格设置为不可见并且不占用空间 -->
+<div id="div1"  style="display:none;" >
+<div id="dnum">序号12</div>
+<table id="tab">
+	<thead><tr><td>序号</td><td>名称</td><td>价格</td><td>图片链接</td><td>商品介绍</td><td>展示图2</td><td>展示图3</td><td>展示图4</td></tr></thead>
+	<tbody id="tb1"></tbody>
+</table>
+</div>
+<script src="table.js"></script>
+
+
+
+
+
+
+
+
+
+
+<div>
+	<div id="ur">了解更多请来爱心屋哦！</div>
+	<script type="text/javascript">
+		document.getElementById('ur').innerHTML = this.location.href;
+	</script>
+</div>
+
+<div id="detail">
+
+	<div ><img id="shopimg" src="?" width="1200" height="1200" alt="商品图片"/>
+	</div>
+	<div><div id="shopname">商品名称</div>
+	</div>
+	<div id="shoppricediv">
+	<span style="font-size: 80px;">价格：</span><span id="shopprice">100元</span>
+	</div>
+	<div style="visibility: hidden">空行</div>
+	<div id="intro">
+		<div id="sp">商品介绍：</div>
+		
+		<div><div id="shopintro">暂无</div><!--商品介绍-->
+		</div>
+		<div><div id="tpzs1" class="tpzs"></div><!--图片展示-->
+		</div>
+		<div><div id="tpzs2" class="tpzs"></div><!--图片展示-->
+		</div>
+		<div><div id="tpzs3" class="tpzs"></div><!--图片展示-->
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+document.body.onload = oneValues();
+//接收一个值
+function oneValues(){
+var url= document.getElementById('ur').innerHTML; //获取url中"?"符后的字串  
+if(url.indexOf("?")!=-1){
+var str = url.substr(1);
+   strs = str.split("&"); 
+
+	 document.getElementById('dnum').innerHTML=strs[1].substr(4);
+  
+}
+	document.getElementById("ur").innerHTML="了解更多请来爱心屋哦！";
+ 	var t = document.getElementById("dnum").innerHTML;
+    document.getElementById("shopname").innerHTML = tab.rows[t].cells[t,1].innerText;
+    document.getElementById("shopprice").innerHTML = tab.rows[t].cells[t,2].innerText;
+    document.getElementById("shopimg").src= tab.rows[t].cells[t,3].innerText;
+    document.getElementById("shopintro").innerHTML = tab.rows[t].cells[t,4].innerText;
+    document.getElementById("tpzs1").innerHTML = tab.rows[t].cells[t,5].innerText;
+    document.getElementById("tpzs2").innerHTML = tab.rows[t].cells[t,6].innerText;
+    document.getElementById("tpzs3").innerHTML = tab.rows[t].cells[t,7].innerText;
+
+return false;
+}
+</script>
+</body>
+</html>
