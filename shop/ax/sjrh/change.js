@@ -20,7 +20,7 @@ var tab = document.getElementById("tab");
 for (var i  = 0; i < ar.length; i++) {
 	for (var j=0; j<ar[i].length; j++){
 
-document.getElementById("z"+(i+1)).innerHTML= (i+1)+ar[i+1][1];
+document.getElementById("z"+(i+1)).innerHTML= (i+1)+'.'+ar[i+1][1];
 document.getElementById("p"+(i+1)).innerHTML= ar[i+1][2];
 document.getElementById("t"+(i+1)).src= ar[i+1][3];
 //ar[1]表示第一个商品
