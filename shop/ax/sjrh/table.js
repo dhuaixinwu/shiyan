@@ -30,5 +30,5 @@ code+="<tr><td>14</td><td>韩束面膜</td><td>10元</td><td>http://bmob-cdn-201
 
 code+="<tr><td>15</td><td>韩束蓝藻活漾补水晚安面膜</td><td>10元</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/11/09/5897749740755c5a80fa6411222f6511.jpg</td><td>上海基金会捐赠。保质期到2021年11月26号</td><td>0</td><td>0</td><td>0</td></tr>";
 
-code+="<tr><td>16</td><td>献爱心</td><td>无价</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/11/ec869a76404f428980faa8d32a75b463.gif</td><td>上海基金会捐赠。保质期到</td><td>0</td><td>0</td><td>0</td></tr>";
+code+="<tr><td>16</td><td>献爱心</td><td>无价</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/11/ec869a76404f428980faa8d32a75b463.gif</td><td>爱心屋接受社会和师生捐赠。师生可以把物资直接送到爱心屋也可以投到宿舍区大熊猫的嘴中。</td><td>0</td><td>0</td><td>0</td></tr>";
 div1.innerHTML=code;} 
