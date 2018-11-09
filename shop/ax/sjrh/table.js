@@ -26,7 +26,7 @@ code+="<tr><td>12</td><td>时克牙膏</td><td>10元</td><td>http://bmob-cdn-201
 
 code+="<tr><td>13</td><td>祛黑头三部曲</td><td>10元</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/13/082f136d401892cb8076ec43c2fbda36.jpg</td><td>上海基金会捐赠。保质期到2019年4月</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/13/90e2b203403a217d80e82ac733b3e5ce.png</td><td>0</td><td>0</td></tr>";
 
-code+="<tr><td>14</td><td>韩束面膜</td><td>10元</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/13/ada4771d4002381180045e26c30b54d3.jpg</td><td>上海基金会捐赠。保质期到</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/13/7d062eb4400bfa7480770d57507d6c30.png</td><td>0</td><td>0</td></tr>";
+code+="<tr><td>14</td><td>韩束面膜</td><td>10元</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/13/ada4771d4002381180045e26c30b54d3.jpg</td><td>上海基金会捐赠。保质期到2021年1月</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/10/13/7d062eb4400bfa7480770d57507d6c30.png</td><td>0</td><td>0</td></tr>";
 
 code+="<tr><td>15</td><td>韩束蓝藻活漾补水晚安面膜</td><td>10元</td><td>http://bmob-cdn-20135.b0.upaiyun.com/2018/11/09/5897749740755c5a80fa6411222f6511.jpg</td><td>上海基金会捐赠。保质期到2021年11月26号</td><td>0</td><td>0</td><td>0</td></tr>";
 

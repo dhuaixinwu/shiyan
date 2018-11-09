@@ -21,7 +21,7 @@
 	border-left: 0.5px solid #838383;
 }
 .topt{
-	width: 299.5px;/*一条边框0.5px，[900.5-0.5x（项目+1）]/项目=w。*/
+	width: 900.5px;/*一条边框0.5px，[900.5-0.5x（项目+1）]/项目=w。*/
 	/*三个项目数字改为299.5；四个项目改为224.5；五个项目改为178.5*/
 	float: left;
 	border-right: 0.5px solid #838383;
@@ -69,11 +69,10 @@
 	margin-top: 45px;
 }
 .mc{
-	font-size: 25px;
+	font-size: 40px;
 	text-align: left;
 	margin-left: 38px;
 	line-height: 70px;
-	font-weight: bold;
 	height: 70px;
 }
 .jg{
